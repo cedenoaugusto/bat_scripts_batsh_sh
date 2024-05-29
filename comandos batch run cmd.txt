@@ -1,0 +1,24 @@
+Administrador de los servicios de windows: services.msc
+ipconfig /flushdns
+Ingresar al registro del sistema: regedit
+Abre IIS (si está instalado): inetmgr.exe
+Command Shell: cmd
+Programas instalados: appwiz.cpl
+Configuracion de programas de arranque y servicios: msconfig
+Políticas y directivas: gpedit.msc
+Administrador de dispositivos: devmgmt.msc
+.
+..
+"\" te lleva a C:\
+
+wmic path softwarelicensingservice get oa3xoriginalproductkey    obtener la licencia
+
+
+onedrive (one drive)
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+
+Para ejecutar scripts desde windows PowerShell
+set-executionpolicy remotesigned
+
+Problemas con caracteres al ejecutar comandos (+¦)
+chcp 65001
